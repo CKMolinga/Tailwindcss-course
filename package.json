@@ -1,0 +1,15 @@
+{
+    "name": "Learning_Tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i src/styles.css -o public/main.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "tailwindcss": "^2.2.7"
+    }
+}
